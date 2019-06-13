@@ -1,8 +1,7 @@
 {
-  "name": "@frontendmonster/falorem",
+  "name": "falorem",
   "version": "0.0.1",
   "license": "MIT",
-  "private": true,
   "author": "frontendmonster <frontendmonster@gmail.com>",
   "description": "Persian lorem generator",
   "repository": {

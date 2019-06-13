@@ -1,0 +1,42 @@
+{
+  "name": "@frontendmonster/falorem",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "author": "frontendmonster <frontendmonster@gmail.com>",
+  "description": "Persian lorem generator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontendmonster/falorem.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf lib",
+    "prebuild": "npm run clean",
+    "build": "tsc",
+    "lint": "tslint --project ./ --fix",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lib:publish": "builder",
+    "lib:pack": "builder --pack",
+    "verify": "npm run lint && npm run test"
+  },
+  "devDependencies": {
+    "@frontendmonster/builder": "^0.2.0",
+    "@types/jest": "^24.0.14",
+    "@types/node": "^10.12.18",
+    "husky": "^1.0.0-rc.15",
+    "jest": "^24.8.0",
+    "rimraf": "^2.6.2",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.17.0",
+    "typescript": "^3.2.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run verify"
+    }
+  }
+}

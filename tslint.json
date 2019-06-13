@@ -1,0 +1,11 @@
+{
+  "extends": "tslint:recommended",
+  "rules": {
+    "object-shorthand-properties-first": false,
+    "quotemark": { "options": "single", "severity": "warn" },
+    "semicolon": {
+      "options": "always",
+      "severity": "warn"
+    }
+  }
+}

@@ -1,3 +1,4 @@
+/** * @internal */
 const lorem: string =
   [
     'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.'
@@ -10,6 +11,11 @@ const lorem: string =
     , 'دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد',
   ].join(' ');
 
+/** * @internal */
 export const paragraphs = [lorem];
+
+/** * @internal */
 export const sentences = lorem.split('.').map((sentence) => `${sentence}.`);
+
+/** * @internal */
 export const words = lorem.replace(/\./gi, '').split(' ');

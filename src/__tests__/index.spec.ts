@@ -5,19 +5,19 @@ describe('api', () => {
   describe('paragraphs', () => {
     it('should return empty string as n = 0', () => {
       const n = 0;
-      const result = lorem.paragraph(n);
+      const result = lorem.paragraphs(n);
       expect(result).toBe('');
     });
 
     it('should return 1 paragraph', () => {
       const n = 1;
-      const result = lorem.paragraph(n);
+      const result = lorem.paragraphs(n);
       expect(result).toBe(paragraphs[0]);
     });
 
     it('should return n paragraph', () => {
       const n = 3;
-      const result = lorem.paragraph(n);
+      const result = lorem.paragraphs(n);
       expect(result).toBe(`${paragraphs[0]} ${paragraphs[0]} ${paragraphs[0]}`);
     });
   });

@@ -42,7 +42,7 @@ lorem.paragraphs(1);
   <li>repository را fork کنید</li>
   <li>روی ماشین خود clone کنید</li>
   <li>پس از اعمال تغییرات کد رو تست کنید (در صورت نیاز تست اضافه کنید)</li>
-  <li>تغییرتا خود را commit کنید</li>
+  <li>تغییرات خود را commit کنید</li>
   <li>تغییرات خود را push کنید</li>
   <li>یک pull request ثبت کنید.</li>
 </ol>

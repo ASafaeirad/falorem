@@ -36,7 +36,7 @@ lorem.paragraphs(1);
 
 ```
 
-<h2>Contributing</h2>
+<h2>مشارکت در توسعه</h2>
 
 <p>به صورت کلی ما از روش fork-and-pull استفاده میکنیم</p>
 

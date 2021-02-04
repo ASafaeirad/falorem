@@ -1,23 +1,25 @@
 {
   "compilerOptions": {
     "moduleResolution": "node",
-    "module": "esnext",
-    "target": "es5",
+    "target": "ES2018",
+    "outDir": "lib/cjs",
+    "module": "CommonJS",
     "lib": [
-      "dom",
-      "es2018"
+      "ES2020"
     ],
-    "sourceMap": true,
     "declaration": true,
+    "sourceMap": true,
+    "declarationMap": true,
+    "downlevelIteration": true,
     "declarationDir": "lib/types",
-    "outDir": "lib/esm5",
     "esModuleInterop": true,
+    "stripInternal": true,
     "strict": true,
   },
   "include": [
     "src/**/*"
   ],
   "exclude": [
-    "src/__tests__/**/*"
+    "**/__tests__/"
   ]
 }
